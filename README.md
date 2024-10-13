@@ -64,7 +64,3 @@ Material Design Components: For designing modern UIs.
 ConstraintLayout: Used for flexible and responsive layout design.
 RecyclerView: For displaying dynamic content in a scrollable list.
 CircleImageView: For rendering circular images.
-
-## Technologies Used
-
-This project is licensed under the MIT License. You can freely use and modify it for your own purposes.
