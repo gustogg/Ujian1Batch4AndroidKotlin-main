@@ -35,6 +35,17 @@ This project is part of the **Ujian 1** (Examination) for Batch 4 in an Android 
 3. **Main Activity**
     - The primary screen of the application which links to other activities.
 
+
+### About Screen
+![About Screen](https://github.com/gustogg/Ujian1Batch4AndroidKotlin-main/blob/main/1.png)
+
+### Article List
+![Article List](https://github.com/gustogg/Ujian1Batch4AndroidKotlin-main/blob/main/2.png)
+
+### Main Activity
+![Main Activity](https://github.com/gustogg/Ujian1Batch4AndroidKotlin-main/blob/main/3.png)
+
+
 ## Installation
 
 To get started with this project, follow these steps:
