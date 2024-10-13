@@ -23,14 +23,14 @@
                 android:layout_height="300dp"
                 android:layout_gravity="center"
                 android:scaleType="fitCenter"
-                />
+                app:srcCompat="@drawable/lyorda" />
 
             <TextView
                 android:id="@+id/articleDetailTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_bold"
-                android:text="TextView"
+                android:text="Lyodra Ginting"
                 android:textAlignment="center" />
 
             <TextView
@@ -55,13 +55,22 @@
                 android:gravity="right"
                 android:orientation="horizontal">
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnShare"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="44dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#D81B60"
                     android:text="Share"
-                    android:textAlignment="center" />
+                    android:textColor="#FFFFFF"
+                    app:cornerRadius="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txtEmail"
+                    app:layout_constraintVertical_bias="0.255" />
             </LinearLayout>
 
         </LinearLayout>
