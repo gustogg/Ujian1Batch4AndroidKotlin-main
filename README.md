@@ -9,7 +9,7 @@ This is a project for **Ujian 1 Batch 4 Android Kotlin**. The app demonstrates b
 - [Screens](#screens)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
-- [License](#license)
+
 
 ## Introduction
 
