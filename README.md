@@ -1,4 +1,4 @@
-# Ujian1Batch4AndroidKotlin
+# Ujian1Batch4AndroidKotlin-GUSTO GINTING-BCAF
 
 This is a project for **Ujian 1 Batch 4 Android Kotlin**. The app demonstrates basic Android functionalities using Kotlin and follows modern Android development practices with Material Design, Constraint Layout, and RecyclerViews.
 
