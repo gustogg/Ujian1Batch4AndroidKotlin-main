@@ -51,7 +51,7 @@ class ListArtisFragment : Fragment() {
         articles = listOf(
             // (Sesuaikan dengan sumber daya gambar Anda)
             Article(R.drawable.chelsea, "Chelsea Islan", "Tak hanya memiliki paras yang cantik, Chelsea Islan juga mempunyai segudang prestasi", "Aktris muda cantik yang berprestasi serta baru saja dilamar oleh Rob Clinton ini merupakan seorang wanita keturunan Amerika Serikat. Memiliki wajah blasteran yang begitu cantik, tidak heran jika Chelsea Islan kemudian sukses masuk sebagai salah satu nominasi perempuan tercantik versi TC Candler selama tiga tahun berturut-turut, yaitu pada tahun 2018, 2019, dan 2020."),
-            Article(R.drawable.lyorda,"Lyorda Ginting","Lyodra Ginting adalah salah satu aktris yang berhasil masuk ke dalam daftar 100 wajah tercantik pada tahun 2021 dari versi TC Candler","Selain memiliki paras yang cantik, ia juga merupakan pemenang pada ajang pencarian bakat Indonesian Idol di tahun 2020. Setelah mengetahui dirinya masuk ke dalam daftar tersebut, Lyodra juga memberikan respons melalui unggahan pada akun instagramnya."),
+            Article(R.drawable.lyorda,"Lyodra Ginting","Lyodra Ginting adalah salah satu aktris yang berhasil masuk ke dalam daftar 100 wajah tercantik pada tahun 2021 dari versi TC Candler","Selain memiliki paras yang cantik, ia juga merupakan pemenang pada ajang pencarian bakat Indonesian Idol di tahun 2020. Setelah mengetahui dirinya masuk ke dalam daftar tersebut, Lyodra juga memberikan respons melalui unggahan pada akun instagramnya."),
             Article(
                 R.drawable.citra_kirana,
                 "Citra Kirana",
