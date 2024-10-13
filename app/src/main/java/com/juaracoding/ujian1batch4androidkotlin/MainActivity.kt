@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-
+import android.widget.TextView
+//import androidx.compose.ui.semantics.text
 
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.setTitle("10 Model Indonesia");
+        supportActionBar?.setSubtitle("Daftar Artis Populer");
+        //set R.id.titleMain = title
+        val title = "10 Model Indonesia" // Or get it from elsewhere
+        val titleTextView = findViewById<TextView>(R.id.titleMain)
+        titleTextView.text = title
 
 
 

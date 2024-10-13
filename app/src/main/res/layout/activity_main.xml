@@ -5,7 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <FrameLayout
         android:id="@+id/frmFragment"
