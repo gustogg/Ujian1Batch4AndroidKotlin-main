@@ -25,14 +25,19 @@ private const val ARG_PARAM2 = "param2"
 class ListDetailFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param2: String? = null
-    lateinit var article : Article
+    private lateinit var article: Article
 
-    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
             param2 = it.getString(ARG_PARAM2)
-            article = it.getParcelable("param1",Article::class.java)!!
+
+            article = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                it.getParcelable(ARG_PARAM1, Article::class.java)!!
+            } else {
+                @Suppress("DEPRECATION")
+                (it.getParcelable(ARG_PARAM1)!!)
+            }
         }
     }
 
@@ -51,7 +56,10 @@ class ListDetailFragment : Fragment() {
 
             view.findViewById<ImageView>(R.id.articleDetailImage)
                 .setImageResource(article.imageResourceId)
-           //tambahkan sisanya disini
+
+            view.findViewById<TextView>(R.id.articleDetailTitle).text = article.title
+            view.findViewById<TextView>(R.id.articleDetailOverview).text = article.overview
+            view.findViewById<TextView>(R.id.articleDetailDescription).text = article.description
         }
     }
 
